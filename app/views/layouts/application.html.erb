@@ -7,8 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<body>
+  
+<%= nav_bar brand: "Clothe Store", brand_link: root_url %>
 
-<%= yield %>
+<div class="container">
+    <%= yield %>
+</div>
 
+</body>
 </body>
 </html>
