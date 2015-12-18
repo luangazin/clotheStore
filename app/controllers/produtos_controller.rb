@@ -6,7 +6,8 @@ class ProdutosController < ApplicationController
     
     def create
         valores = params.require(:produto).permit :nome, :preco, :descricao, :quantidade
-        produto = Produto.create valores
+        Produto.create valores
+        redirect_to root_url
     end
     
     def destroy
