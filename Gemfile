@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'rails-i18n', '~> 4.0.0'
 #BootStrap
 gem 'twitter-bootstrap-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
