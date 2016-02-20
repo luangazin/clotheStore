@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'thin'
 gem 'rails-i18n', '~> 4.0.0'
 #BootStrap
 gem 'twitter-bootstrap-rails'
